@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contador de Intervalos"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite números (1-100). Digite 0 para ver resultado."
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um número"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/buttonLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados aparecerão aqui"
+        android:textSize="16sp"
+        android:padding="8dp" />
+</LinearLayout>
